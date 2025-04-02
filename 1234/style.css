@@ -1,0 +1,18 @@
+body {
+    background-color: rgba(27, 126, 39, 0.744);
+}
+
+.center-h1 {
+    text-align: center; /* Centers text */
+    color: darkblue;
+}
+
+.center-div {
+    text-align: center; /* Centers text */
+    color: darkblue;
+}
+
+img {
+    width: 200px;
+    height: auto; /* Keeps aspect ratio */
+}
