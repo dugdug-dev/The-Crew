@@ -16,3 +16,32 @@ img {
     width: 200px;
     height: auto; /* Keeps aspect ratio */
 }
+
+.table-container {
+    display: table;
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%; /* Fixed width for the table */
+    table-layout: fixed; /* Ensures the table width stays fixed */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    overflow-wrap: break-word; /* Ensures long content wraps */
+    word-wrap: break-word; /* For older browsers */
+    word-break: break-word; /* Breaks long words */
+}
+
+.table-cell:hover {
+    background-color: #e0e0e0;
+}
